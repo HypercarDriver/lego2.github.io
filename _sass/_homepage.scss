@@ -1,3 +1,5 @@
+$light_blue_color: #4ED9D0;
+
 body {
   background: #EEEEEE;
   color: #777777;
@@ -9,7 +11,7 @@ body {
     padding-bottom: 70px;
   }
   #subscribe {
-    background-color:#4ED9D0;
+    background-color: $light_blue_color;
     color: #FFFFFF;
     padding-top: 70px;
     padding-bottom: 70px;
@@ -21,7 +23,7 @@ body {
 }
 
 .jumbotron {
-  background: #4ED9D0;
+  background: $light_blue_color;
   color: #FFFFFF;
   
   .jumbotron-title {
