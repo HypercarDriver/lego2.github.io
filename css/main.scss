@@ -28,6 +28,13 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
 
 
 // Use media queries like this:
