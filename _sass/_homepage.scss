@@ -44,4 +44,8 @@ body {
 .carousel-control.right, .carousel-control.left {
   background-image: none;
   color: $light_blue_color;
+  
+  @media (max-width: 700px;) {
+    color: #FFFFFF;  
+  }
 }
