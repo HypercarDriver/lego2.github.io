@@ -76,19 +76,10 @@ layout: projectpagedefault
        </ul>
     </div>
     <div class="well">
+      {% for album in site._config.yml %}
        <h4>Tags:</h4>
-       <span class="badge">LEGO</span>
-       <span class="badge">city</span>
-       <span class="badge">LEGO CITY</span>
-       <span class="badge">Park</span>
-       <span class="badge">park fountain</span>
-       <span class="badge">minifigure</span>
-       <span class="badge">minifig</span>
-       <span class="badge">city park</span>
-       <span class="badge">people</span>
-       <span class="badge">fun</span>
-       <span class="badge">add on</span>
-       <span class="badge">add-on</span>
+       <span class="badge">{{ site.title }}</span>
+       {% endfor %}
     </div>
   </div>
 </div>
