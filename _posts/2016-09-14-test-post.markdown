@@ -1,4 +1,0 @@
-Add my website link to wedsite:
-{% highlight html %}
-<a href="https://awk888.github.io">{{ content }}</a>
-{% endhighlight %}
