@@ -1,3 +1,8 @@
+/* Override the base style for navbar.scss */
+.navbar {
+  margin: unset;
+} 
+
 .carousel-inner img {
   width: 100%; /* Set width to 100% */
   min-height: 200px;
