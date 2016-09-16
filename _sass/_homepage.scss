@@ -51,6 +51,20 @@ body {
   }
 }
 
+.jumbotron.project-jumbotron {
+  background-color: $light_blue_color;
+  height: 400px;
+  color: #FFFFFF;
+  
+  .jumbotron-title {
+    font-family: 'Raleway', 'Josefin Sans', sans-serif;
+  }
+    
+  .jumbotron-tagline {
+    font-family: 'Josefin Sans', 'Raleway', sans-serif;
+  }
+}
+
 .item {
   .carousel-image {
     margin: auto;  
