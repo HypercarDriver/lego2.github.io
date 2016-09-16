@@ -3,6 +3,12 @@ $light_blue_color: #4ED9D0;
 $jumbotron_background_image: url("https://dp1eoqdp1qht7.cloudfront.net/community/bands/images/2656033-o_1asmfahf5120hg9d751fh0bcud.jpg");
 $default_padding: 70px;
 
+@mixin back-image($image, $size: cover, $position: center center) {
+  background-image: $image;
+  background-size: $size;
+  background-position: $position;
+}
+
 body {
   background: #EEEEEE;
   color: #777777;
@@ -27,10 +33,8 @@ body {
 
 .jumbotron {
   /* Test Image (Will be replaced later.) */
-  background-image: $jumbotron_background_image;
+  @include back-image($jumbotron_background_image, cover, center center);
   /* endcomment */
-  background-size: cover;
-  background-position: center center;
   height: 400px;
   color: #FFFFFF;
   
