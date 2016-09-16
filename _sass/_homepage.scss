@@ -35,7 +35,7 @@ body {
   }
 }
 
-.jumbotron:not(.project-jumbotron) {
+.jumbotron {
   /* Test Image (Will be replaced later.) */
   @include back-image($jumbotron_background_image, cover, center center);
   /* endcomment */
@@ -49,26 +49,6 @@ body {
     
   .jumbotron-tagline {
     font-family: 'Josefin Sans', 'Raleway', sans-serif;
-  }
-}
-
-.jumbotron.project-jumbotron {
-  background-color: $light_blue_color;
-  height: 400px;
-  color: #FFFFFF;
-  
-  .jumbotron-title {
-    font-family: 'Raleway', 'Josefin Sans', sans-serif;
-  }
-    
-  .jumbotron-tagline {
-    font-family: 'Josefin Sans', 'Raleway', sans-serif;
-  }
-  
-  .btn-default {
-    background-color: #222;
-    border: #080808;
-    color: #FFFFFF;
   }
 }
 
