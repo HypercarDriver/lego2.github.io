@@ -35,7 +35,7 @@ body {
   }
 }
 
-.jumbotron {
+.jumbotron:not(.project-jumbotron) {
   /* Test Image (Will be replaced later.) */
   @include back-image($jumbotron_background_image, cover, center center);
   /* endcomment */
