@@ -41,6 +41,7 @@ body {
   /* endcomment */
   height: 400px;
   color: #FFFFFF;
+  margin-bottom: 0;
   
   .jumbotron-title {
     font-family: 'Raleway', 'Josefin Sans', sans-serif;
@@ -55,6 +56,8 @@ body {
   background-color: $light_blue_color;
   height: 400px;
   color: #FFFFFF;
+  margin-left: 150px;
+  margin-right: 150px;
   
   .jumbotron-title {
     font-family: 'Raleway', 'Josefin Sans', sans-serif;
