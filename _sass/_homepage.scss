@@ -1,4 +1,7 @@
+/* Variables */
 $light_blue_color: #4ED9D0;
+$jumbotron_background_image: url("https://dp1eoqdp1qht7.cloudfront.net/community/bands/images/2656033-o_1asmfahf5120hg9d751fh0bcud.jpg");
+$default_padding: 70px;
 
 body {
   background: #EEEEEE;
@@ -8,23 +11,23 @@ body {
     font-family: 'Raleway', 'Josefin Sans', sans-serif;
   }
   #ideas-projects {
-    padding-bottom: 70px;
+    padding-bottom: $default_padding;
   }
   #subscribe {
     background-color: $light_blue_color;
     color: #FFFFFF;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: $default_padding;
+    padding-bottom: $default_padding;
   }
   #nonideas-projects {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: $default_padding;
+    padding-bottom: $default_padding;
   }
 }
 
 .jumbotron {
   /* Test Image (Will be replaced later.) */
-  background-image: url("https://dp1eoqdp1qht7.cloudfront.net/community/bands/images/2656033-o_1asmfahf5120hg9d751fh0bcud.jpg");
+  background-image: $jumbotron_background_image;
   /* endcomment */
   background-size: cover;
   background-position: center center;
