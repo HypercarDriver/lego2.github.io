@@ -2,6 +2,7 @@
 $light_blue_color: #4ED9D0;
 $jumbotron_background_image: url("https://dp1eoqdp1qht7.cloudfront.net/community/bands/images/2656033-o_1asmfahf5120hg9d751fh0bcud.jpg");
 $default_padding: 70px;
+$black_color: #222222;
 
 @mixin back-image($image, $size: cover, $position: center center) {
   background-image: $image;
@@ -24,7 +25,7 @@ body {
     padding-bottom: $default_padding;
   }
   #subscribe {
-    background-color: $light_blue_color;
+    background-color: $black_color;
     color: #FFFFFF;
     padding-top: $default_padding;
     padding-bottom: $default_padding;
@@ -59,7 +60,7 @@ body {
 
 .carousel-control.right, .carousel-control.left {
   background-image: none;
-  color: $light_blue_color;
+  color: $black_color;
   
   @media (max-width: 700px) {
     color: #FFFFFF;  
