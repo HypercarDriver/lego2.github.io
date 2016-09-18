@@ -8,8 +8,16 @@ body {
   }
   
   .navbar {
-    margin-bottom: 5px;
-  } 
+    margin-bottom: 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
 
 .carousel-inner img {
