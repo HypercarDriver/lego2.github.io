@@ -58,7 +58,11 @@ body {
 
 .item {
   .carousel-image {
-    margin: auto;  
+    margin: auto;
+    
+    /* Image Re-sizeing */
+    max-width: 832px;
+    min-width: 832px;
   }
 }
 
