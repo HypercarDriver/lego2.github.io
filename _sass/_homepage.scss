@@ -10,10 +10,6 @@ $black_color: #222222;
   background-position: $position;
 }
 
-@mixin bottom-border($width, $type, $color) {
-  border-bottom: $width $type $color;
-}
-
 body {
   background: #EEEEEE;
   color: #777777;
@@ -24,10 +20,6 @@ body {
   
   .content-title {
     font-family: 'Raleway', 'Josefin Sans', sans-serif;
-    padding: 5px;
-    margin-left: 350px;
-    margin-right: 350px;
-    @include bottom-border(1px, solid, #777777);
   }
   #ideas-projects {
     padding-bottom: $default_padding;
