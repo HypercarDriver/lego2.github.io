@@ -6,11 +6,11 @@ body {
   .content-title {
     font-family: 'Raleway', 'Josefin Sans', sans-serif;
   }
+  
+  .navbar {
+    margin-bottom: 5px;
+  } 
 }
-
-.navbar {
-  margin: unset;
-} 
 
 .carousel-inner img {
   width: 100%; /* Set width to 100% */
