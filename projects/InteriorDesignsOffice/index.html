@@ -1,0 +1,135 @@
+---
+layout: projectpagedefault 
+---
+
+<div class="container">
+<div class="row">
+  <div class="col-sm-8">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="https://dp1eoqdp1qht7.cloudfront.net/community/projects/df6/776/140585/2441216-o_1ahsqas2619v4cce1rpvh141g2ie-full.png" alt="Image">
+          <div class="carousel-caption">
+            <h3>Interior Designs Office</h3>
+            <p>A LEGO Ideas Project</p>
+          </div>      
+        </div>
+
+        <div class="item">
+          <img src="https://dp1eoqdp1qht7.cloudfront.net/community/projects/df6/776/140585/2441220-o_1ahsqe093sao2tp16lo1884hrab-thumbnail.png" alt="Image">
+          <div class="carousel-caption">
+            <h3>Office worker</h3>
+            <p>Here is the guy who owns the office</p>
+          </div>      
+        </div>
+
+        <div class="item">
+          <img src="https://dp1eoqdp1qht7.cloudfront.net/community/projects/df6/776/140585/2441223-o_1ahsqg6de18bl1b851b7129nhb5g-thumbnail.png" alt="Image">
+          <div class="carousel-caption">
+            <h3>Plain View</h3>
+            <p>Here is a pic of just of office</p>
+          </div>      
+        </div>
+
+        <div class="item">
+          <img src="https://dp1eoqdp1qht7.cloudfront.net/community/projects/df6/776/140585/2441236-o_1ahsrp2o41rl01u6316d7kdjugk7-thumbnail.png" alt="Image">
+          <div class="carousel-caption">
+            <h3>Back View</h3>
+            <p>Take a look at the back of the desk</p>
+          </div>      
+        </div>
+        
+        <div class="item">
+          <img src="https://dp1eoqdp1qht7.cloudfront.net/community/projects/df6/776/140585/2449285-o_1aib7fmqg1p5qae3ilm1nr21mqe7-thumbnail.png" alt="Image">
+          <div class="carousel-caption">
+            <h3>One more view</h3>
+          </div>      
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="well">
+      <p>Welcome to the LEGO City park! Here you can slide on the slide or just take a nice walk; it's up to you. Also please check out this awesome project on <a href="https://ideas.lego.com/" target="_blank" data-toggle="tooltip" title="Check it out now" data-placement="right">LEGO Ideas</a> and support.</p>
+      <div class="btn btn-info btn-sm" disabled id="3DView" role="button" data-toggle="modal" data-target="#3DModal" data-toggle="tooltip" title="No 3D View Yet">3D View</div>
+      <a href="javascript: void(0);" data-toggle="popover" title="Copy Short Link" data-content="https://ideas.lego.com/projects/125715">
+        <div class="btn btn-info btn-sm">Copy Short Link</div>
+      </a>
+      <a href="javascript: void(0);" data-toggle="popover" title="Copy Page Link" data-content="{{ site.baseurl }}/projects/LEGOCityPark">
+        <div class="btn btn-info btn-sm">Copy Page Link</div>
+      </a>
+      <a href="https://ideas.lego.com/projects/125715" target="_blank">
+        <div class="btn btn-info btn-sm" data-toggle="tooltip" title="View project on LEGO Ideas">View on LEGO Ideas</div>
+      </a>
+    </div>
+    <div class="well">
+       <h4>LEGO Ideas Stats:</h4>
+       <ul>
+            <li>Supporters: 60</li>
+            <li>Views: 1k+</li>
+            <li>Comments: 90</li>
+            <li>Followers: 20</li>
+            <li>Days Left: 121</li>
+       </ul>
+    </div>
+    <div class="well">
+       <h4>Tags:</h4>
+       <span class="badge">LEGO</span>
+       <span class="badge">city</span>
+       <span class="badge">LEGO CITY</span>
+       <span class="badge">Park</span>
+       <span class="badge">park fountain</span>
+       <span class="badge">minifigure</span>
+       <span class="badge">minifig</span>
+       <span class="badge">city park</span>
+       <span class="badge">people</span>
+       <span class="badge">fun</span>
+       <span class="badge">add on</span>
+       <span class="badge">add-on</span>
+    </div>
+  </div>
+</div>
+<div id="3DModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">LEGO CITY Park</h4>
+      </div>
+      <div class="modal-body text-center">
+        <div class="embed-responsive embed-responsive-16by9">
+          <div class="alert alert-danger">
+            <strong>Sorry!</strong> No 3D view yet!
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<hr>
+</div>
