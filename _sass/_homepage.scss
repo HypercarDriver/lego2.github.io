@@ -42,6 +42,7 @@ body {
 
 .jumbotron {
   /* Test Image (Will be replaced later.) */
+  background-color: $black_color;
   @include back-image($jumbotron_background_image, cover, center center);
   /* endcomment */
   height: 400px;
