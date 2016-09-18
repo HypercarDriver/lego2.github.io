@@ -1,4 +1,13 @@
 /* Override the base style for navbar.scss */
+body {
+  background: #EEEEEE;
+  color: #777777;
+  
+  .content-title {
+    font-family: 'Raleway', 'Josefin Sans', sans-serif;
+  }
+}
+
 .navbar {
   margin: unset;
 } 
