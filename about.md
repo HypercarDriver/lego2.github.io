@@ -17,5 +17,5 @@ permalink: /about/
 
 <div class="container">
   <h3>Build</h3>
-  <p>This site was build useing <a href="https://jekyllrb.com/" target="_blank">jekyll</a></p>
+  <p>This site was build useing <a href="https://jekyllrb.com/" target="_blank">jekyll</a> and hosted thanks to <a href="https://pages.github.com" target="_blank">GitHub Pages</a></p>
 </div>
