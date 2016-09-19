@@ -1,15 +1,21 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<div class="jumbotron">
+  <div class="container text-center glow-text">
+    <h1 class="jumbotron-title">About</h1>
+    <p class="jumbotron-tagline">About this site</p>
+  </div>
+</div>
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+<div class="container">
+  <p>This site was built to promote my <a href="https://ideas.lego.com/profile/awk888/projects">LEGO Ideas projects</a>.</p>
+</div>
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+<div class="container">
+  <h3>Build</h3>
+  <p>This site was build useing <a href="https://jekyllrb.com/" target="_blank">jekyll</a></p>
+</div>
