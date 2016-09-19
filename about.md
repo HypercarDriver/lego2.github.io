@@ -1,6 +1,6 @@
 ---
 layout: default
-title: awk888 LEGO | About
+title: About
 permalink: /about/
 ---
 
