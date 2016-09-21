@@ -16,7 +16,7 @@ baseurl: "https://awk888.github.io" # the subpath of your site, e.g. /blog
 url: "http://awk888.github.io" # the base hostname & protocol for your site
 github_username:  awk888
 LEGO_IDEAS_username: awk888
-projects: ['/projects/LEGOCityPark/', '/projects/InteriorDesignsOffice']
+projects: ['/projects/LEGOCityPark/', '/projects/InteriorDesignsOffice', '/projects/SpyJet']
 
 
 # Build settings
