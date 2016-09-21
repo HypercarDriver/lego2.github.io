@@ -1,3 +1,5 @@
+Thank you for reporting a issues with my site, please put the right info under the header.
+
 ### Expected behavior
 Please state what you expected the site to do here:
 
