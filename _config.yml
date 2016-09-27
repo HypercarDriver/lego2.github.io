@@ -17,6 +17,7 @@ url: "http://awk888.github.io" # the base hostname & protocol for your site
 github_username:  awk888
 LEGO_IDEAS_username: awk888
 projects: ['/projects/LEGOCityPark/', '/projects/InteriorDesignsOffice', '/projects/SpyJet']
+LEGO_Ideas_projects: ['https://ideas.lego.com/projects/154797', 'https://ideas.lego.com/projects/125715']
 LEGO_Gallerys: ['http://www.lego.com/en-us/city/galleries/']
 
 # Build settings
